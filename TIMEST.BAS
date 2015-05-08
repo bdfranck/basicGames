@@ -1,0 +1,13 @@
+'play scale in 7 different octaves
+SCALE$ = "GFD#DC"
+PLAY "T60"
+FOR I% = 0 TO 1
+PLAY "X" + VARPTR$(SCALE$)
+NEXT I%
+'PLAY SCALE IN 7 DIFFERENT OCTAVES
+SCALE$ = "DFEGFDAGA#AD"
+PLAY "T250"
+FOR I% = 0 TO 2
+PLAY "X" + VARPTR$(SCALE$)
+NEXT I%
+
